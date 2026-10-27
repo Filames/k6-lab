@@ -1,0 +1,15 @@
+# K6 Performance Testing Lab
+
+This repository contains the performance testing scripts and results for the Software Quality Assurance and Testing lab (ITDS362). 
+The tests are written in JavaScript using Grafana K6 and run against the public demo site QuickPizza.
+
+## Contents
+- **Part 0:** Basic K6 scripts exploring HTTP requests, checks, thresholds, and debugging.
+- **Part A:** Load testing a realistic user journey using different strategies:
+  - Smoke Test
+  - Average-load Test
+  - Stress Test
+  - Spike Test
+  - Soak Test
+- **reports/:** HTML dashboard reports generated from the load tests.
+- **RESULTS.md:** Document containing the recorded metrics and theoretical reflections.
